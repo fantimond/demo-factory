@@ -1,5 +1,5 @@
 //
-//  ExperimentC_controller.swift
+//  ExpC_controller.swift
 //  SampleCustomView
 //
 //  Created by Bhupendra Trivedi on 22/12/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExperimentC_controller: UIViewController {
+class ExpC_controller: UIViewController {
   
   @IBOutlet var changeColorButtonInParent: UIButton!
   

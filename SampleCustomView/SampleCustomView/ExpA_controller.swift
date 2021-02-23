@@ -1,5 +1,5 @@
 //
-//  ExperimentA_controller.swift
+//  ExpA_controller.swift
 //  SampleCustomView
 //
 //  Created by Bhupendra Trivedi on 19/12/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExperimentA_controller: UIViewController {
+class ExpA_controller: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
