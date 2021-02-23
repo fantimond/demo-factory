@@ -18,8 +18,8 @@
 		DF0FA37F23AB4DF20051411F /* ChangeColorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA37E23AB4DF20051411F /* ChangeColorView.xib */; };
 		DF0FA38123AB59910051411F /* ChangeColorExpA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA38023AB59910051411F /* ChangeColorExpA.swift */; };
 		DF0FA38323AB59AE0051411F /* ChangeColorExpA.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA38223AB59AE0051411F /* ChangeColorExpA.xib */; };
-		DF4A934023ACB54B00530249 /* ChangeColorVarB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A933E23ACB54B00530249 /* ChangeColorVarB.swift */; };
-		DF4A934123ACB54B00530249 /* ChangeColorVarB.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4A933F23ACB54B00530249 /* ChangeColorVarB.xib */; };
+		DF4A934023ACB54B00530249 /* ChangeColorExpB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A933E23ACB54B00530249 /* ChangeColorExpB.swift */; };
+		DF4A934123ACB54B00530249 /* ChangeColorExpB.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4A933F23ACB54B00530249 /* ChangeColorExpB.xib */; };
 		DF91721823AF8E0800AA21A8 /* ExperimentC_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91721723AF8E0800AA21A8 /* ExperimentC_controller.swift */; };
 		DF91721A23AF90BD00AA21A8 /* ChangeColorExpC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91721923AF90BD00AA21A8 /* ChangeColorExpC.swift */; };
 		DF91721C23AF90E500AA21A8 /* ChangeColorExpC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF91721B23AF90E500AA21A8 /* ChangeColorExpC.xib */; };
@@ -40,8 +40,8 @@
 		DF0FA37E23AB4DF20051411F /* ChangeColorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeColorView.xib; sourceTree = "<group>"; };
 		DF0FA38023AB59910051411F /* ChangeColorExpA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorExpA.swift; sourceTree = "<group>"; };
 		DF0FA38223AB59AE0051411F /* ChangeColorExpA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeColorExpA.xib; sourceTree = "<group>"; };
-		DF4A933E23ACB54B00530249 /* ChangeColorVarB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeColorVarB.swift; sourceTree = "<group>"; };
-		DF4A933F23ACB54B00530249 /* ChangeColorVarB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeColorVarB.xib; sourceTree = "<group>"; };
+		DF4A933E23ACB54B00530249 /* ChangeColorExpB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeColorExpB.swift; sourceTree = "<group>"; };
+		DF4A933F23ACB54B00530249 /* ChangeColorExpB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeColorExpB.xib; sourceTree = "<group>"; };
 		DF91721723AF8E0800AA21A8 /* ExperimentC_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentC_controller.swift; sourceTree = "<group>"; };
 		DF91721923AF90BD00AA21A8 /* ChangeColorExpC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorExpC.swift; sourceTree = "<group>"; };
 		DF91721B23AF90E500AA21A8 /* ChangeColorExpC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeColorExpC.xib; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 			children = (
 				DF0FA38023AB59910051411F /* ChangeColorExpA.swift */,
 				DF0FA38223AB59AE0051411F /* ChangeColorExpA.xib */,
-				DF4A933E23ACB54B00530249 /* ChangeColorVarB.swift */,
-				DF4A933F23ACB54B00530249 /* ChangeColorVarB.xib */,
+				DF4A933E23ACB54B00530249 /* ChangeColorExpB.swift */,
+				DF4A933F23ACB54B00530249 /* ChangeColorExpB.xib */,
 				DF91721923AF90BD00AA21A8 /* ChangeColorExpC.swift */,
 				DF91721B23AF90E500AA21A8 /* ChangeColorExpC.xib */,
 				DF91721D23AFB58C00AA21A8 /* MultipleView.xib */,
@@ -171,7 +171,7 @@
 				DF0FA37223AB4BEF0051411F /* LaunchScreen.storyboard in Resources */,
 				DF0FA38323AB59AE0051411F /* ChangeColorExpA.xib in Resources */,
 				DF0FA36F23AB4BEF0051411F /* Assets.xcassets in Resources */,
-				DF4A934123ACB54B00530249 /* ChangeColorVarB.xib in Resources */,
+				DF4A934123ACB54B00530249 /* ChangeColorExpB.xib in Resources */,
 				DF0FA36D23AB4BED0051411F /* Main.storyboard in Resources */,
 				DF91721C23AF90E500AA21A8 /* ChangeColorExpC.xib in Resources */,
 			);
@@ -184,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4A934023ACB54B00530249 /* ChangeColorVarB.swift in Sources */,
+				DF4A934023ACB54B00530249 /* ChangeColorExpB.swift in Sources */,
 				DF0FA36A23AB4BED0051411F /* ExperimentA_controller.swift in Sources */,
 				DF91721A23AF90BD00AA21A8 /* ChangeColorExpC.swift in Sources */,
 				DF91721823AF8E0800AA21A8 /* ExperimentC_controller.swift in Sources */,

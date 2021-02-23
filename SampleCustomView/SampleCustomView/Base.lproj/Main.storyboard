@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,25 +14,24 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" userLabel="ExperimentA" customClass="ExperimentA_controller" customModule="SampleCustomView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5x5-tv-8A1" customClass="ChangeColorExpA" customModule="SampleCustomView" customModuleProvider="target">
-                                <rect key="frame" x="87" y="127" width="240" height="275"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="87" y="127" width="216" height="275"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="MAU-4t-y1m"/>
-                                    <constraint firstAttribute="width" constant="240" id="NP2-gv-aNS"/>
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                         <color key="backgroundColor" red="0.84074606427932008" green="1" blue="0.92378100475183678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="5x5-tv-8A1" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="83" id="iO8-pL-Goi"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="5x5-tv-8A1" secondAttribute="trailing" constant="87" id="por-iV-geo"/>
                             <constraint firstItem="5x5-tv-8A1" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="87" id="yx7-VH-DBb"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Exp A" image="doc" catalog="system" id="cPa-gy-q4n"/>
                 </viewController>
@@ -43,10 +44,10 @@
             <objects>
                 <viewController id="eKK-I8-1lu" userLabel="ExperimentC" customClass="ExperimentC_controller" customModule="SampleCustomView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="npU-E9-KTl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98868996432656464" green="0.88531446859597351" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="TjG-8C-Zvp"/>
+                        <color key="backgroundColor" red="0.98868996432656464" green="0.88531446859597351" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Exp C" image="doc" catalog="system" id="X0N-Sq-dHh"/>
                 </viewController>
@@ -59,25 +60,24 @@
             <objects>
                 <viewController id="prm-Za-iH7" userLabel="ExperimentB" customClass="ExperimentB_controller" customModule="SampleCustomView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oNo-kA-tqf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2n-xS-iE9" customClass="ChangeColorExpB">
-                                <rect key="frame" x="87" y="135" width="240" height="275"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2n-xS-iE9" customClass="ChangeColorExpB" customModule="SampleCustomView" customModuleProvider="target">
+                                <rect key="frame" x="87" y="135" width="216" height="275"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="7vB-z3-yAX"/>
-                                    <constraint firstAttribute="width" constant="240" id="VDU-kt-PMV"/>
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Bq-y3-0Jr"/>
                         <color key="backgroundColor" red="0.7130029033557973" green="0.91038636782979798" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="g2n-xS-iE9" firstAttribute="top" secondItem="8Bq-y3-0Jr" secondAttribute="top" constant="91" id="Qz1-Wh-d48"/>
                             <constraint firstItem="8Bq-y3-0Jr" firstAttribute="trailing" secondItem="g2n-xS-iE9" secondAttribute="trailing" constant="87" id="ZUT-7I-r6F"/>
                             <constraint firstItem="g2n-xS-iE9" firstAttribute="leading" secondItem="8Bq-y3-0Jr" secondAttribute="leading" constant="87" id="hSb-eL-VkO"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="8Bq-y3-0Jr"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Exp B" image="doc" catalog="system" id="Nac-hn-ebO"/>
                 </viewController>
@@ -106,6 +106,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="doc" catalog="system" width="56" height="64"/>
+        <image name="doc" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

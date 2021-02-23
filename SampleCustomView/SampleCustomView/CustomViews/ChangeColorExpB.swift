@@ -8,7 +8,15 @@
 
 import UIKit
 
-class ChangeColorVarB: UIView {
+class ChangeColorExpB: UIView {
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+  }
+  
+  required init?(coder: NSCoder) {
+    super.init(coder: coder)
+  }
     
     @IBOutlet var changeColorButtonInCustomView: UIButton!
     
